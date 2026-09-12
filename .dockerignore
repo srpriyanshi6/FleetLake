@@ -1,0 +1,5 @@
+data_lake/
+screenshots/
+__pycache__/
+*.pyc
+.git/
