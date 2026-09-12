@@ -1,0 +1,15 @@
+{
+  "target_dt": "2026-09-01",
+  "target_city": "Delhi",
+  "before": {
+    "bytes_scanned": 988536,
+    "files_touched": 14,
+    "rows_matched": 636
+  },
+  "after": {
+    "bytes_scanned": 5277,
+    "files_touched": 1,
+    "rows_matched": 1
+  },
+  "reduction_pct": 99.5
+}
