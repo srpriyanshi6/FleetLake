@@ -11,18 +11,18 @@
 
 
 ## Streamlit App
-![Streamlit App](image-3.png)
+![Streamlit App](assets/screenshots/image-3.png)
 
 
 ### Fleet Utilisation tab
-![Fleet Utilisation tab](image-4.png)
+![Fleet Utilisation tab](assets/screenshots/image-4.png)
 
 
 ### Driver Performance tab
-![Driver Performance](image-5.png)
+![Driver Performance](assets/screenshots/image-5.png)
 
 ### Delivery SLA
-![Delivery SLA](image-6.png)
+![Delivery SLA](assets/screenshots/image-6.png)
 
 ### Highlights
 
@@ -85,14 +85,14 @@ This bronze/silver/gold split (the "medallion architecture") exists so that:
 ---
 
 ### Pipeline run : cleaning & deduplication
-![Terminal output showing the FleetLake pipeline cleaning raw JSON, dropping duplicate and malformed rows, and building the three curated tables](image.png)
+![Terminal output showing the FleetLake pipeline cleaning raw JSON, dropping duplicate and malformed rows, and building the three curated tables](assets/screenshots/image.png)
 
 
 ### Query cost comparison : raw JSON vs. partitioned Parquet
 ![Terminal output comparing bytes scanned for the same SLA query against raw JSON versus curated partitioned Parquet, showing a 99.5% reduction in data scanned](assets/screenshots/image-1.png)
 
 
-![Terminal output showing Athena-equivalent query cost comparison: 965.4 KB scanned for raw JSON vs 5.2 KB for partitioned Parquet, a 99.5% reduction](image-2.png)
+![Terminal output showing Athena-equivalent query cost comparison: 965.4 KB scanned for raw JSON vs 5.2 KB for partitioned Parquet, a 99.5% reduction](assets/screenshots/image-2.png)
 
 ---
 
