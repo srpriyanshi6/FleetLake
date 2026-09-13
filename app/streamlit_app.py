@@ -20,7 +20,7 @@ def load_table(name: str) -> pd.DataFrame:
     return df
 
 
-st.title("🚚 FleetLake — Fleet & Delivery Analytics")
+st.title("FleetLake : Fleet & Delivery Analytics")
 st.caption(
     "A medallion-architecture data lake (raw → staging → curated) over synthetic "
     "vehicle telemetry, driver shifts, and delivery events. Every chart below reads "
