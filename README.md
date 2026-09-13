@@ -1,6 +1,6 @@
 # FleetLake
 
-## **Live dashboard:** : 
+## **Live dashboard:** : https://fleetlake-priyanshi.streamlit.app/
 
 **A data lake and analytics pipeline for fleet & last-mile delivery operations** : vehicle telemetry, driver shift logs, and delivery completions, built on a bronze/silver/gold (raw/staging/curated) medallion architecture designed after cloud data warehouses like AWS S3+Glue+Athena (or the GCP equivalent, Cloud Storage+Dataproc+BigQuery), with SQL analytics and a live Streamlit dashboard on top.
 
